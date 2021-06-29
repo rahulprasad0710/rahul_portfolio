@@ -15,9 +15,7 @@ const About = () => {
                 </div>
                 <div className="about__inside-container-c c2">
                     <p className="about-page-para">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nemo provident voluptate reprehenderit laborum ab
-                        impedit dolorum
+                        Hello, My name is Rahul Prasad.
                         <br />
                         repellat? Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Earum sint velit doloribus beatae
