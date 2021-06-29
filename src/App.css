@@ -1,0 +1,67 @@
+.App {
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/*
+!Global  Classes
+*/
+
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container,
+    .container-sm {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container,
+    .container-sm,
+    .container-md {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .inside-container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .inside-container {
+        max-width: 1140px;
+    }
+}
+
+/* .inside-container {
+  margin: 0 15rem;
+}
+
+@media screen and (max-width: 960px) {
+  .inside-container {
+    margin: 1rem 4rem;
+  }
+} */
