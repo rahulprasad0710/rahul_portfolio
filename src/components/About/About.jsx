@@ -14,13 +14,21 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about__inside-container-c c2">
-                    <p className="about-page-para">
+                    <h3 className="about_heading">
+                        {" "}
                         Hello, My name is Rahul Prasad.
-                        <br />
-                        repellat? Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Earum sint velit doloribus beatae
-                        commodi facilis. Maxime totam,
+                    </h3>
+                    <p className="about-page-para">
+                        <span>
+                            I am MERN Stack who want to excel in Life by
+                            thinking out of the box. I want to work with maximum
+                            potential in a challenging and dynamic environment,
+                            with an opportunity of working with diverse group of
+                            people and enhancing my professional skills with
+                            learning and experience for career growth.
+                        </span>
                     </p>
+                    <p className="about-page-para"></p>
                 </div>
             </div>
         </div>

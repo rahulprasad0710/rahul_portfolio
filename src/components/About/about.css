@@ -47,7 +47,7 @@
     margin: 0 auto;
 }
 .about-page-para {
-    padding: 0 2rem;
+    padding: 0 3rem;
 }
 .inside-container-c {
     align-self: stretch;
@@ -67,6 +67,10 @@
 }
 .about-page-para {
     margin-bottom: 3rem;
+}
+
+.about_heading {
+    font-size: 3rem;
 }
 
 @media screen and (max-width: 770px) {

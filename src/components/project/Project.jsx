@@ -23,14 +23,6 @@ const Project = () => {
             id: "html",
             tittle: "HTML CSS",
         },
-        {
-            id: "fullstack",
-            tittle: "Full Stack",
-        },
-        {
-            id: "webdesign",
-            tittle: "Web Design",
-        },
     ];
 
     useEffect(() => {
